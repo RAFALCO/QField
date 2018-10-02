@@ -51,7 +51,8 @@ HEADERS += \
     focusstack.h \
     printlayoutlistmodel.h \
     vertexmodel.h \
-    maptoscreen.h
+    maptoscreen.h \
+    featureslocatorfilter.h
 
 SOURCES += \
     appinterface.cpp \
@@ -88,7 +89,8 @@ SOURCES += \
     focusstack.cpp \
     printlayoutlistmodel.cpp \
     vertexmodel.cpp \
-    maptoscreen.cpp
+    maptoscreen.cpp \
+    featureslocatorfilter.cpp
 
 INCLUDEPATH += ../../3rdparty/tessellate \
                ../qgsquick \
